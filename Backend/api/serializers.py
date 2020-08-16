@@ -11,3 +11,4 @@ class EntrySerializer(serializers.HyperlinkedModelSerializer):
         model = Entry
         fields = '__all__'
 
+        

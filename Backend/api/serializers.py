@@ -1,5 +1,4 @@
 from rest_framework import serializers
-
 from .models import Student, Entry
 
 class StudentSerializer(serializers.HyperlinkedModelSerializer):
@@ -11,3 +10,4 @@ class EntrySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Entry
         fields = '__all__'
+
